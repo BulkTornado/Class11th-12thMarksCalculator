@@ -1,4 +1,4 @@
-# Class 11th Marks Calculator
+# Class 11th-12th Marks Calculator
 
 This program is designed to simplify the process of calculating marks for Class 11 and 12 students, where the marking scheme is more intricate compared to earlier classes. Throughout the academic year, marks from four key exams are considered:
 
