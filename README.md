@@ -1,42 +1,51 @@
 # Class 11th Marks Calculator
 
-For class 11 and 12, the marking scheme is completely different from the rest of the classes. 
-Also, throughout the year, four exams are conducted mainly, and only the marks from these 4 exams are counted.
-These four exams are, in order: Periodic Test 1, Half Yearly, Periodic Test 2, and Session Ending Examination.
+This program is designed to simplify the process of calculating marks for Class 11 and 12 students, where the marking scheme is more intricate compared to earlier classes. Throughout the academic year, marks from four key exams are considered:
 
-For any of the exams, a minimum of 33% out of the maximum marks for that subject in the type of exam is required to classify the student as passed.
-Anything less, is considered 'fail'.
+1. **Periodic Test 1 (PT-1)**  
+2. **Half Yearly Exam (HY)**  
+3. **Periodic Test 2 (PT-2)**  
+4. **Session Ending Examination (SSE)**  
 
-First, subjects are divided into practical and non-practical subjects.
+For all exams, a minimum score of **33%** in both the **theory (exam marks)** and **practical/assessment marks** is required for a student to pass. Students scoring below this threshold in either component are classified as having failed.
+
+The program accounts for the unique marking schemes of practical and non-practical subjects and calculates aggregate marks accordingly.
+
+---
 
 ## Practical Subjects
 
-These includes subjects like Physics, Chemistry and Computer Science.
+Practical subjects include **Physics**, **Chemistry**, and **Computer Science**. 
 
-PT-1 and PT-2 are conducted out of 40 marks, while HY and SSE are conducted are out of 70 marks.
+### Exam Mark Distribution:
+- **PT-1 and PT-2:** Conducted out of 40 marks each.  
+- **HY and SSE:** Conducted out of 70 marks each.
 
-For PT-1 and PT-2, 10% of the marks is taken and added.
+### Aggregate Calculation:
+- **PT-1 and PT-2:** 10% of marks from each test are added.  
+- **HY:** 30% of marks are considered.  
+- **SSE:** 50% of marks are considered.
 
-For HY and SSE, 30% and 50% of the marks is taken and added. 
+The aggregate marks (out of 100) are then scaled to a maximum of 70. Additionally:
+- Practical and internal assessments contribute 30 marks.
+- The final total (marks + assessments) is out of 100.
 
-Once the aggegrate marks out of 100 has been calculated, it is converted to 'out of 70' marks.
-
-The practical and internal assessments totals to 30 marks in the aggregate marks.
-
-Thus, the final sum of practical, internal assessments and subject marks equates to out of 100.
+---
 
 ## Non-Practical Subjects
 
-These includes subjects like Mathematics and English.
+Non-practical subjects include **Mathematics** and **English**.
 
-PT-1 and PT-2 are conducted out of 40 marks, while HY and SSE are conducted are out of 80 marks.
+### Exam Mark Distribution:
+- **PT-1 and PT-2:** Conducted out of 40 marks each.  
+- **HY and SSE:** Conducted out of 80 marks each.
 
-For PT-1 and PT-2, 10% of the marks is taken and added.
+### Aggregate Calculation:
+- **PT-1 and PT-2:** 10% of marks from each test are added.  
+- **HY:** 30% of marks are considered.  
+- **SSE:** 50% of marks are considered.
 
-For HY and SSE, 30% and 50% of the marks is taken and added. 
+The aggregate marks (out of 100) are then scaled to a maximum of 80. Additionally:
+- Internal assessments contribute 20 marks.
+- The final total (marks + assessments) is out of 100.
 
-Once the aggegrate marks out of 100 has been calculated, it is converted to 'out of 80' marks.
-
-The internal assessments totals to 20 marks in the aggregate marks.
-
-Thus, the final sum of internal assessments and subject marks equates to out of 100.
