@@ -70,7 +70,7 @@ def StartProgram():
             continue
         if sub_input == 0:
             is_running = False
-            print('Alright!')
+            print('Thank you for using the Marks Calculator and Estimator :D')
         elif 1 <= sub_input <= 5:
             if sub_input in (1,2,4):
                 PracticalSubjects(subjects[sub_input - 1])
@@ -79,6 +79,7 @@ def StartProgram():
         else:
             print('Please enter a valid subject number (1-5)')
 
-
 if __name__ == '__main__':
     StartProgram()
+
+
